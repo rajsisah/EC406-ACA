@@ -33,7 +33,7 @@ library(stargazer) #latex tables
 
 ## JHARKHAND TOP 50
 
-jh_top50 <- read_dta('jh_top50')
+jh_top50 <- read_dta('jh_top50.dta')
 state_data <- as.data.frame(jh_top50)
 summary(state_data)
 
