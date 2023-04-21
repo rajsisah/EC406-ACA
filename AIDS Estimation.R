@@ -86,9 +86,7 @@ linear_aids_1 <- aidsEst(priceNames, shareNames, "totalexp", data = state_data, 
 summary(linear_aids_1)
 
 #Now, since expenditure shares are seen on both sides of the AIDS expression, it ould lead to simultaneity bias. 
-#To eradicate this problem, we used lagged values of expenditure shares in construction of the price index (Blanciforti et al. 1986)
-
-#Linear Approximation AIDS Model Correcting for Simultaneity (Lagged Stone Index)
+#To eradicate this problem, we used the method adopted by (Blanciforti et al. 1986)
 
 linear_aids_2 <- aidsEst(priceNames, shareNames, "totalexp", data = state_data, priceIndex = "SL")
 summary(linear_aids_2)
@@ -209,9 +207,7 @@ linear_aids_1 <- aidsEst(priceNames, shareNames, "totalexp", data = state_data2,
 summary(linear_aids_1)
 
 #Now, since expenditure shares are seen on both sides of the AIDS expression, it ould lead to simultaneity bias. 
-#To eradicate this problem, we used lagged values of expenditure shares in construction of the price index (Blanciforti et al. 1986)
-
-#Linear Approximation AIDS Model Correcting for Simultaneity (Lagged Stone Index)
+#To eradicate this problem, we used the method adopted by (Blanciforti et al. 1986)
 
 linear_aids_2 <- aidsEst(priceNames, shareNames, "totalexp", data = state_data2, priceIndex = "SL")
 summary(linear_aids_2)
@@ -332,9 +328,7 @@ linear_aids_1 <- aidsEst(priceNames, shareNames, "totalexp", data = state_data2,
 summary(linear_aids_1)
 
 #Now, since expenditure shares are seen on both sides of the AIDS expression, it ould lead to simultaneity bias. 
-#To eradicate this problem, we used lagged values of expenditure shares in construction of the price index (Blanciforti et al. 1986)
-
-#Linear Approximation AIDS Model Correcting for Simultaneity (Lagged Stone Index)
+#To eradicate this problem, we used the method adopted by (Blanciforti et al. 1986)
 
 linear_aids_2 <- aidsEst(priceNames, shareNames, "totalexp", data = state_data2, priceIndex = "SL")
 summary(linear_aids_2)
@@ -453,9 +447,7 @@ linear_aids_1 <- aidsEst(priceNames, shareNames, "totalexp", data = state_data3,
 summary(linear_aids_1)
 
 #Now, since expenditure shares are seen on both sides of the AIDS expression, it ould lead to simultaneity bias. 
-#To eradicate this problem, we used lagged values of expenditure shares in construction of the price index (Blanciforti et al. 1986)
-
-#Linear Approximation AIDS Model Correcting for Simultaneity (Lagged Stone Index)
+#To eradicate this problem, we used the method adopted by (Blanciforti et al. 1986)
 
 linear_aids_2 <- aidsEst(priceNames, shareNames, "totalexp", data = state_data3, priceIndex = "SL")
 summary(linear_aids_2)
