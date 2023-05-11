@@ -1,10 +1,6 @@
 ###DATA EXTRACTION OF DTA FILES NSS 68 CES###
 ###Ananya & Rajsi############################
 
-#Setting Working Directory
-
-setwd("C:/Ananya Iyengar/Delhi School of Economics/406_Applied Consumption Analysis/ACA Term Paper")
-
 #Loading Packages
 
 library(haven)
